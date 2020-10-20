@@ -9,12 +9,12 @@ li{
 }
 
 header{
-    background:url("../imagenes/sodastereoperfil.jpg");
-    min-height: 100vh;
+    background:url("../imagenes/Imágenes20bis.jpg");
+    min-height:100vh;
 }
 
 body {
-    background-color:#1E1E24;
+    background-color: #1E1E24;
 }
 
 @keyframes color_titulo{
@@ -48,8 +48,9 @@ p{
 
 h1 {font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: right;
+    text-align: left;
     color:#FB9F89;
+    padding: 20px;
 }
 a {
     text-decoration: none;
@@ -64,30 +65,33 @@ a {
     }
 
 .menu ul li{
-    padding: 4px;
-    margin: 2px;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
 }
 
 .menu ul li:hover{
 background-color: #FB9F89;
 }
 
-.hola{
-    background-color: #FB9F89;
-}
-
 .hola p{
-    background-color: #FB9F89;
+    background-color: #81AE9D;
+    padding: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color:#1E1E24;
 }
 
 .hola{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: #1E1E24;
     text-align: center;
-    padding: 10px 10px 1px 1px;
-    }
+}
 
+.hola img{
+    padding: 20px;
+    margin-top: 70px;
+}
+/*
 @keyframes hola_movete{
     from{
         transform: rotate(0deg);
@@ -99,10 +103,11 @@ background-color: #FB9F89;
 
 .hola div img{
     animation-name: hola_movete;
-    animation-duration: 7s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-}
+    padding-top: 70px;
+}*/
 
 section div h1{
     font-family:Arial, Helvetica, sans-serif;
@@ -114,10 +119,12 @@ section div h1{
 .historia h2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
-    background-color: #FB9F89;
+    background-color:#FB9F89;
     color: black;
+    border-radius: 5px;
     text-align: right;
     margin: 50px 60px 15px 1px;
+    padding: 10px;
 }
 
 .historia p{
@@ -127,6 +134,11 @@ section div h1{
     color: black;
     text-align: justify;
     padding: 5%;
+}
+
+.historia img{
+    padding: 20px;
+    margin-left: 110px;
 }
 
 .discos h1{
@@ -154,6 +166,14 @@ body h2{
     font-size: 40px;
     color: #FB9F89;
     text-align: right;
+}
+
+.discos h2{
+    background-color: #81AE9D;
+    padding: 30px;
+    text-align: center;
+    color: black;
+    margin-top: 70px;
 }
 
 .img ul{
@@ -225,6 +245,10 @@ section form{
 }
 
 @media (min-width:769px) and (max-width:1199px){
+}
+
+.galeria img{
+    width: 100%;
 }
 
 
